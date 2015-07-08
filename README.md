@@ -14,20 +14,47 @@ $ ruby palindromes.rb input.txt
 # output
 
 -- palindromes --
-b > 4
-a > 3
-radar > 3
-A > 1
-Beeb > 1
-c > 1
+b > 11
+a > 10
+aaa > 9
+c > 4
+radar > 4
+101 > 3
+i > 3
+lol > 3
+aaaa > 2
+d > 2
+mom > 2
+s > 2
+aa > 1
+bbbb > 1
+beeb > 1
+ddd > 1
 did > 1
-I > 1
-Mom > 1
+e > 1
+f > 1
+g > 1
+h > 1
+j > 1
+k > 1
+l > 1
+m > 1
+n > 1
+o > 1
+p > 1
 peep > 1
-s > 1
+q > 1
+r > 1
+t > 1
+u > 1
+v > 1
+w > 1
+x > 1
+y > 1
+z > 1
 
 -- histogram --
-{"A"=>1, "radar"=>3, "did"=>1, "peep"=>1, "a"=>3, "Mom"=>1, "s"=>1, "I"=>1, "Beeb"=>1, "b"=>4, "c"=>1}
+{"a"=>10, "radar"=>4, "did"=>1, "peep"=>1, "mom"=>2, "s"=>2, "i"=>3, "beeb"=>1, "101"=>3, "b"=>11, "c"=>4, "lol"=>3, "aaa"=>9, "v"=>1, "w"=>1, "x"=>1, "y"=>1, "z"=>1, "t"=>1, "u"=>1, "o"=>1, "p"=>1, "q"=>1, "r"=>1, "k"=>1, "l"=>1, "m"=>1, "n"=>1, "g"=>1, "h"=>1, "j"=>1, "d"=>2, "e"=>1, "f"=>1, "aa"=>1, "aaaa"=>2, "bbbb"=>1, "ddd"=>1}
 
 -- histogram chart --
 generating chart... ./histogram.png
