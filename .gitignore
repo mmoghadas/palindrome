@@ -1,0 +1,4 @@
+Gemfile.lock
+*.png
+.DS_Store
+*.gem
