@@ -74,7 +74,7 @@ module Runner
 
   # read file and remove unwanted characters
   def self.read_file(file)
-    File.read(file).split(/[^a-zA-Z]/).delete_if { |word| word == "" }
+    File.read(file).split(/[^a-zA-Z0-9]/).delete_if { |word| word == "" }
   end
 
   def self.format(content)
