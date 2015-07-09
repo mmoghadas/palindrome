@@ -9,7 +9,7 @@ class Palindrome
   # search for palindromes
   def find(data)
     @palindromes = data.select do |word|
-      palindrome?(word.downcase)
+      palindrome?(word)
     end
     histogram
   end
@@ -74,7 +74,7 @@ module Runner
 
   # read file and remove unwanted characters
   def self.read_file(file)
-    File.read(file).split(/[^a-zA-Z0-9]/).delete_if { |word| word == "" }
+    File.read(file).downcase.split(/[^a-zA-Z0-9]/).delete_if { |word| word == "" }
   end
 
   def self.format(content)
@@ -84,7 +84,7 @@ module Runner
     # sort the grouped palindrome by word and print
     output = []
     grouped.sort.reverse.each do |gkey, gvalue|
-      gvalue.sort_by { |k,v| k.downcase }.each do |word, count|
+      gvalue.sort_by { |k,v| k }.each do |word, count|
         output << "#{word} > #{count}"
       end
     end
