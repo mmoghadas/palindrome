@@ -7,6 +7,12 @@ This tool takes in an text file as input and outputs palindromes and histogram
 
 ### Installation
 ```bash
+# Gem Installation
+$ gem install palindromes
+
+- OR -
+
+# Bundle Installation
 $ bundle install
 $ alias palindromes="bundle exec ./bin/palindromes"
 ```
