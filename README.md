@@ -22,7 +22,7 @@ $ alias palindromes="bundle exec ./bin/palindromes"
 ```bash
 
 # Usage Help
-palindromes --help
+$ palindromes --help
 
 # default search (output to stdout and chart to ./histogram.png)
 $ palindromes find <input_file>
