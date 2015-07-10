@@ -1,3 +1,0 @@
-require 'palindromes'
-
-Palindromes.new

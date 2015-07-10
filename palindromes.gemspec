@@ -1,20 +1,20 @@
 # coding: utf-8
 
-Gem::Specification.new do |spec|
-  spec.name          = 'palindromes'
-  spec.version       = File.read 'VERSION'
-  spec.authors       = %w'mmoghadas'
-  spec.email         = %w'mike.moghadas@gmail.com'
-  spec.description   = %q{palindromes: diag tool}
-  spec.summary       = %q{palindromes: diag tool}
-  spec.homepage      = ''
-  spec.license       = 'MIT'
+Gem::Specification.new do |s|
+  s.name          = 'palindromes'
+  s.version       = File.read 'VERSION'
+  s.authors       = %w'mmoghadas'
+  s.email         = %w'mike.moghadas@gmail.com'
+  s.description   = %q{palindromes: diag tool}
+  s.summary       = %q{palindromes: diag tool}
+  s.homepage      = ''
+  s.license       = 'MIT'
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = %w'lib'
+  s.files         = `git ls-files`.split($/)
+  s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.test_files    = s.files.grep(%r{^(test|spec|features)/})
+  s.require_paths = %w'lib'
 
-  spec.add_dependency 'clamp'
-  spec.add_dependency 'gruff'
+  s.add_dependency 'clamp'
+  s.add_dependency 'gruff'
 end
